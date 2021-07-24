@@ -1,0 +1,19 @@
+baseURL = "https://matplotlib.org/matplotblog/"
+languageCode = "en-us"
+title = "Matplotblog"
+theme = "aether"
+canonifyurls = true
+paginate = 3
+
+[params]
+head_img = "/mpl_logo.png"
+description = "The blog of Matplotlib"
+bgimg = "bg_tiles.png"
+link1 = "https://matplotlib.org"
+link1_description = "About"
+
+[taxonomies]
+  category = "categories"
+
+[markup.goldmark.renderer]
+  unsafe = true
